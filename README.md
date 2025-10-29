@@ -1,6 +1,6 @@
 # 🏸 BorneoPadel Website
 
-Website resmi Borneo Padel - Fasilitas Padel Premier di Samarinda, Kalimantan Timur.
+Website resmi Borneo Padel 
 
 ![Vue.js](https://img.shields.io/badge/Vue.js-3.x-4FC08D?logo=vue.js&logoColor=white)
 ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-3.x-38B2AC?logo=tailwind-css&logoColor=white)
