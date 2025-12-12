@@ -4,6 +4,8 @@ import TentangKami from '../pages/TentangKami.vue'
 import Fasilitas from '../pages/Fasilitas.vue'
 import Booking from '../pages/Booking.vue'
 import Kontak from '../pages/Kontak.vue'
+import Author from '../pages/Author.vue'
+
 
 const routes = [
   { path: '/', component: Beranda, name: 'Beranda' },
@@ -11,6 +13,7 @@ const routes = [
   { path: '/fasilitas', component: Fasilitas, name: 'Fasilitas' },
   { path: '/booking', component: Booking, name: 'Booking' },
   { path: '/kontak', component: Kontak, name: 'Kontak' },
+  { path: '/author', component: Author, name: 'Author' },
 ]
 
 const router = createRouter({
@@ -19,3 +22,4 @@ const router = createRouter({
 })
 
 export default router
+

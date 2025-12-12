@@ -79,6 +79,13 @@ const navigateToTop = (path) => {
           >
             Kontak
           </button>
+          <button 
+            @click="navigateToTop('/author')" 
+            class="font-medium text-base text-gray-text hover:text-primary transition"
+            :class="{ 'text-primary': $route.path === '/author' }"
+          >
+            Author
+          </button>
         </div>
       </div>
 
@@ -118,6 +125,13 @@ const navigateToTop = (path) => {
           :class="{ 'text-primary bg-gray-100': $route.path === '/kontak' }"
         >
           Kontak
+        </button>
+        <button 
+          @click="navigateToTop('/author')"
+          class="w-full text-left block px-4 py-2 rounded transition font-medium text-gray-text hover:text-primary hover:bg-gray-100"
+          :class="{ 'text-primary bg-gray-100': $route.path === '/author' }"
+        >
+          Author
         </button>
       </div>
     </nav>
